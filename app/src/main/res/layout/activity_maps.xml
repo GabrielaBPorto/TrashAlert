@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="637dp"-->
+        <!--android:baselineAligned="false">-->
+
+        <!--&lt;!&ndash;<fragment&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/map"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:name="com.google.android.gms.maps.SupportMapFragment"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="528dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginEnd="8dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;map:layout_constraintEnd_toStartOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;map:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;map:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:context=".MapsActivity" />&ndash;&gt;-->
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_alert"
+            android:id="@+id/newAlert"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
