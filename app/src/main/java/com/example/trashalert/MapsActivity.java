@@ -25,9 +25,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_maps);
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-//        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-//                .findFragmentById(R.id.map);
-//        mapFragment.getMapAsync(this);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
 
         carregaTela();
     }
@@ -58,13 +58,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
-//    @Override
-//    public void onMapReady(GoogleMap googleMap) {
-//        mMap = googleMap;
-//
-//        // Add a marker in Curitiba and move the camera
-//        LatLng cwb = new LatLng(-25, -49);
-//        mMap.addMarker(new MarkerOptions().position(cwb).title("Marker at home! Hi Guys!"));
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(cwb));
-//    }
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+
+        // Add a marker in Curitiba and move the camera
+        LatLng cwb = new LatLng(-25, -49);
+        mMap.addMarker(new MarkerOptions().position(cwb).title("Marker at home! Hi Guys!"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(cwb));
+    }
 }

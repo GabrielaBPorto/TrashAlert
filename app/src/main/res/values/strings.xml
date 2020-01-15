@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Trash Alert</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">Trash Alert</string>
     <string name="new_alert">Criar novo alerta</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
 </resources>
